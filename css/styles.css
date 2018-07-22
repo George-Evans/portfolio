@@ -7,6 +7,10 @@
 	position: relative;
 }
 
+	.project {
+		margin: 30vh 0;
+	}
+
 .col-xs-12,
 .container-fluid {
 	padding-left: 0;
@@ -65,14 +69,14 @@ li {
 
 }
 
-.overlay img {
+/*.project img {
 	transition-delay: 0.05s;
 	transition: 0.6s;
-}
+}*/
 
-.overlay img:hover {
+/*.project img:hover {
 	opacity: 0;
-}
+}*/
 
 .project-title {
 	display: none;
@@ -83,8 +87,18 @@ li {
 	background-size: contain;
 }
 
+#gb-mob-overlay {
+	background: url(../img/gb_mob_wireframe.png);
+	background-size: contain;
+}
+
 #croatia-overlay {
 	background: url(../img/croatia_wireframe.png);
+	background-size: contain;
+}
+
+#croatia-mob-overlay {
+	background: url(../img/croatia_mob_wireframe.png);
 	background-size: contain;
 }
 
@@ -93,8 +107,18 @@ li {
 	background-size: contain;
 }
 
+#dstore-mob-overlay {
+	background: url(../img/dstore_mob_wireframe.png);
+	background-size: contain;
+}
+
 #colluded-overlay {
 	background: url(../img/colluded_wireframe.png);
+	background-size: contain;
+}
+
+#colluded-mob-overlay {
+	background: url(../img/colluded_mob_wireframe.png);
 	background-size: contain;
 }
 
@@ -341,11 +365,14 @@ h1 {
 	letter-spacing: -1.5;
 }
 
-
-h2 {
+h2,
+h4 {
 	font-family: "brandon-grotesque";
 	font-weight: 300;
 	font-style: normal;
+}
+
+h2 {
 	font-size: 30px;
 	letter-spacing: -1.32;
 }
@@ -354,6 +381,33 @@ h3 {
 	font-size: 90px;
 	letter-spacing: -3.5px;
 }
+
+h4 {
+	font-size: 24px;
+	letter-spacing: -1.2;
+	margin-top: -10px;
+}
+
+.btn-primary {
+	font-family: "brandon-grotesque";
+	font-weight: 600;
+	font-size: 24px;
+	margin-top: 18px;
+	padding: 6px 32px;
+	border-color: #fff;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+	border-color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:active {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-color: #fff;
+}
+
 
 /*GLITTERBOX*/
 
@@ -405,12 +459,10 @@ h3 {
 	body input + label {
 		top: 16px;
 		right: 12px;
-
 	}
 
-	/*HOMEPAGE*/
-	.project {
-		height: 100vh;
+	.project-title {
+		padding: 0 20px;
 	}
 
 	/*TYPOGRAPHY*/
@@ -426,10 +478,22 @@ h3 {
 	}
 
 	h3 {
-		font-size: 40px;
+		font-size: 50px;
 		letter-spacing: -1.6px;
+		line-height: 46px;
 	}
 
+	h4 {
+		font-size: 18px;
+		letter-spacing: -0.8px;
+		margin-top: -5px;
+		line-height: 22px;
+	}
+
+	.btn-primary {
+		font-size: 20px;
+		margin-top: 10px;
+	}
 
 }
 
