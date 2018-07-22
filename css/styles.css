@@ -57,6 +57,7 @@ li {
 .project-title {
 	text-align: center;
 	width: 100%;
+	margin: 0;
 
 }
 
@@ -74,7 +75,7 @@ li {
 }
 
 #gb-overlay {
-	background: url(../img/gb_wireframe.png);
+	background: url(../img/gb_mob_wireframe.png);
 	background-size: contain;
 }
 
@@ -189,13 +190,12 @@ header {
 	top: 0;
 	z-index: 3;
 	width: 100%;
-	height: 75px;
-	background-color: #000;
+	height: 120px;
 	transition: 0.2s ease-in-out;
 }
 
 header.scrollUp {
-	transform: translateY(-75px);
+	transform: translateY(-120px);
 }
 
 .logo {
@@ -348,6 +348,7 @@ h2 {
 
 h3 {
 	font-size: 90px;
+	letter-spacing: -3.5px;
 }
 
 /*GLITTERBOX*/
@@ -366,7 +367,11 @@ h3 {
 
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) {
-
+	.container {
+		width: auto;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
 }
 
 
@@ -401,6 +406,11 @@ h3 {
 	h2 {
 		font-size: 18px;
 		letter-spacing: -0.7px;
+	}
+
+	h3 {
+		font-size: 40px;
+		letter-spacing: -1.6px;
 	}
 
 }
