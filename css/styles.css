@@ -1,0 +1,417 @@
+.container-fluid,
+.project {
+	position: relative;
+}
+
+.col-xs-12,
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container-fluid {
+	width: 100%;
+	max-width: 1440px;
+}
+
+li {
+	display: block;
+}
+
+::selection {
+  background: #ffb7b7; 
+}
+
+
+/*INDEX*/
+
+
+
+.header {
+	height: 100vh;
+}
+
+.intro {
+	height: 160vh;
+}
+
+.sites {
+	padding-bottom: 20vh; 
+}
+
+.sites > .row > div {
+	margin-bottom: 32px;
+}
+
+.title,
+.project-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+  	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
+}
+
+.title,
+.project-title {
+	text-align: center;
+	width: 100%;
+
+}
+
+.overlay img {
+	transition-delay: 0.05s;
+	transition: 0.6s;
+}
+
+.overlay img:hover {
+	opacity: 0;
+}
+
+.project-title {
+	display: none;
+}
+
+#gb-overlay {
+	background: url(../img/gb_wireframe.png);
+	background-size: contain;
+}
+
+#croatia-overlay {
+	background: url(../img/croatia_wireframe.png);
+	background-size: contain;
+}
+
+#dstore-overlay {
+	background: url(../img/dstore_wireframe.png);
+	background-size: contain;
+}
+
+#colluded-overlay {
+	background: url(../img/colluded_wireframe.png);
+	background-size: contain;
+}
+
+
+
+
+/*Gradient*/
+
+body {
+	min-height: 100%;
+	color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #237ecb, #23e9ab);
+	background: -webkit-linear-gradient(-45deg, #EE7752, #E73C7E, #237ecb, #23e9ab);
+	background-size: 400% 400%;
+	background-attachment: fixed;
+	-webkit-animation: Gradient 257s ease infinite;
+	-moz-animation: Gradient 257s ease infinite;
+	animation: Gradient 257s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-webkit-keyframes InverseGradient {
+	0% {
+		background-position: 100% 50%
+	}
+	50% {
+		background-position: 0% 50%
+	}
+	100% {
+		background-position: 100% 50%
+	}
+}
+
+@-moz-keyframes InverseGradient {
+	0% {
+		background-position: 100% 50%
+	}
+	50% {
+		background-position: 0% 50%
+	}
+	100% {
+		background-position: 100% 50%
+	}
+}
+
+@keyframes InverseGradient {
+	0% {
+		background-position: 100% 50%
+	}
+	50% {
+		background-position: 0% 50%
+	}
+	100% {
+		background-position: 100% 50%
+	}
+}
+
+/*NAVAGATION*/
+
+header {
+	position: fixed;
+	top: 0;
+	z-index: 3;
+	width: 100%;
+	height: 75px;
+	background-color: #000;
+	transition: 0.2s ease-in-out;
+}
+
+header.scrollUp {
+	transform: translateY(-75px);
+}
+
+.logo {
+  position: absolute;
+  top: 22px;
+  left: 26px;
+  width: 64px;
+  z-index: 4;
+}
+
+#burger {
+	display: none;
+}
+
+body h1 > span {
+  text-transform: none;
+  opacity: 0.5;
+  font-weight: 300;
+  font-size: 12px;
+}
+body input + label {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  height: 20px;
+  width: 30px;
+  z-index: 5;
+}
+body input + label span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 50%;
+  margin-top: -1px;
+  left: 0;
+  display: block;
+  background: #fff;
+  transition: 0.5s;
+}
+body input + label span:first-child {
+  top: 3px;
+}
+body input + label span:last-child {
+  top: 16px;
+}
+body label:hover {
+  cursor: pointer;
+}
+body input:checked + label span {
+  opacity: 0;
+  top: 50%;
+}
+body input:checked + label span:first-child {
+  opacity: 1;
+  transform: rotate(405deg);
+}
+body input:checked + label span:last-child {
+  opacity: 1;
+  transform: rotate(-405deg);
+}
+body input ~ nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  margin-top: -1px;
+  z-index: 3;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  overflow: hidden;
+  background: linear-gradient(32deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: InverseGradient 143s ease infinite;
+	-moz-animation: InverseGradient 143s ease infinite;
+	animation: InverseGradient 143s ease infinite;
+}
+
+body input ~ nav.home-nav {
+  height: 1px;
+  margin-top: -1px;
+}
+body input ~ nav > ul {
+	padding: 0;
+  font-size: 0.8em;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
+}
+
+body input ~ nav > ul > li {
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+body input ~ nav > ul > li > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 5em;
+  line-height: 1.5em;
+  display: block;
+  display: inline-block;
+  transition: 0.5s;
+  -webkit-text-stroke: 0.5px white;
+}
+
+body input ~ nav > ul > li > a:hover {
+	text-decoration: none;
+	color: transparent;
+}
+body input:checked ~ nav {
+  height: 105%;
+  transition-delay: 0s;
+}
+body input:checked ~ nav > ul > li {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+/*Typography*/
+
+h1,
+h3,
+.home-nav li a {
+	font-family:'Flareserif821 Lt BT W05 Bold';
+}
+
+h1 {
+	font-size: 120px;
+	letter-spacing: -5.26;
+}
+
+.home-nav li a {
+	letter-spacing: -1.5;
+}
+
+
+h2 {
+	font-family: "brandon-grotesque";
+	font-weight: 300;
+	font-style: normal;
+	font-size: 30px;
+	letter-spacing: -1.32;
+}
+
+h3 {
+	font-size: 90px;
+}
+
+/*GLITTERBOX*/
+
+.wrap {
+	background-color: #fff;
+	color: #000;
+}
+
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
+
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+
+}
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+	.logo {
+		top: 12px;
+		left: 12px;
+		width: 40px;
+	}
+
+	body input + label {
+		top: 16px;
+		right: 12px;
+
+	}
+
+	/*TYPOGRAPHY*/
+	h1 {
+		font-size: 80px;
+		letter-spacing: -3px;
+		line-height: 66px;
+	}
+
+	h2 {
+		font-size: 18px;
+		letter-spacing: -0.7px;
+	}
+
+}
+
+
+/*XX small devices (portrait phones, less than 420px)*/
+@media (max-width: 420px) {
+
+	body input ~ nav > ul {
+		font-size: 0.7em;
+	}
+
+
+}

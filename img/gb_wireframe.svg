@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="720px" viewBox="0 0 1024 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>GB Wireframe</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1024" height="720"></rect>
+        <rect id="path-3" x="0" y="0" width="543" height="543"></rect>
+        <rect id="path-5" x="0" y="0" width="1024" height="95"></rect>
+        <rect id="path-7" x="0" y="0" width="43" height="43"></rect>
+        <rect id="path-9" x="0" y="0" width="108" height="43"></rect>
+        <rect id="path-11" x="0" y="0" width="65" height="43"></rect>
+        <rect id="path-13" x="0" y="0" width="43" height="43"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop-HD" transform="translate(-208.000000, -1024.000000)">
+            <g id="GB-Wireframe" transform="translate(208.000000, 1024.000000)">
+                <g id="Group">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <rect stroke="#000000" x="0.5" y="0.5" width="1023" height="719"></rect>
+                    <g id="Wireframe-Image" mask="url(#mask-2)">
+                        <g transform="translate(-30.000000, 144.000000)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="542" height="542"></rect>
+                            <path d="M542.5,0.5 L0.5,542.5" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)"></path>
+                            <path d="M542.5,542.5 L0.5,0.5" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-4)"></path>
+                        </g>
+                    </g>
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <rect stroke="#000000" x="0.5" y="0.5" width="1023" height="94"></rect>
+                    <g id="Wireframe-Image" mask="url(#mask-6)">
+                        <g transform="translate(554.000000, 644.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="42" height="42"></rect>
+                            <path d="M42.9604052,0.0395948435 L0.0395948435,42.9604052" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)"></path>
+                            <path d="M42.9604052,42.9604052 L0.0395948435,0.0395948435" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-8)"></path>
+                        </g>
+                    </g>
+                    <g id="Wireframe-Image" mask="url(#mask-6)">
+                        <g transform="translate(609.000000, 644.000000)">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="107" height="42"></rect>
+                            <path d="M107.900552,0.0395948435 L0.0994475138,42.9604052" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-10)"></path>
+                            <path d="M107.900552,42.9604052 L0.0994475138,0.0395948435" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-10)"></path>
+                        </g>
+                    </g>
+                    <g id="Wireframe-Image" mask="url(#mask-6)">
+                        <g transform="translate(729.000000, 644.000000)">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="64" height="42"></rect>
+                            <path d="M64.9401473,0.0395948435 L0.0598526703,42.9604052" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)"></path>
+                            <path d="M64.9401473,42.9604052 L0.0598526703,0.0395948435" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-12)"></path>
+                        </g>
+                    </g>
+                    <g id="Wireframe-Image" mask="url(#mask-6)">
+                        <g transform="translate(806.000000, 644.000000)">
+                            <mask id="mask-14" fill="white">
+                                <use xlink:href="#path-13"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="42" height="42"></rect>
+                            <path d="M42.9604052,0.0395948435 L0.0395948435,42.9604052" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-14)"></path>
+                            <path d="M42.9604052,42.9604052 L0.0395948435,0.0395948435" id="Line" stroke="#000000" stroke-width="1" fill="none" stroke-linecap="square" mask="url(#mask-14)"></path>
+                        </g>
+                    </g>
+                    <text id="Glitterbox-Radio-Sho" font-family="SerifGothicITCbyBT-Heavy, ITC Serif Gothic" font-size="47.5600014" font-weight="600" line-spacing="41" letter-spacing="-0.469999999" fill="#000000">
+                        <tspan x="554" y="179">Glitterbox Radio</tspan>
+                        <tspan x="554" y="220">Sho</tspan>
+                        <tspan x="628.543322" y="220">w</tspan>
+                    </text>
+                    <text id="Episode-062-with-The" font-family="SerifGothicITCbyBT-Bold, ITC Serif Gothic" font-size="26" font-weight="bold" line-spacing="41" letter-spacing="-0.2569386" fill="#000000">
+                        <tspan x="554" y="242">Episode 062 with The Shapeshifters</tspan>
+                    </text>
+                    <text id="Follow-Us" font-family="SerifGothicITCbyBT-Bold, ITC Serif Gothic" font-size="26" font-weight="bold" line-spacing="41" letter-spacing="-0.2569386" fill="#000000">
+                        <tspan x="554" y="618">Follow Us</tspan>
+                    </text>
+                    <text id="Hosted-by-Melvo-Bapt" font-family="SerifGothicITCbyBT-Bold, ITC Serif Gothic" font-size="17.5" font-weight="bold" line-spacing="41" letter-spacing="-0.1729394" fill="#000000">
+                        <tspan x="554" y="276">Hosted by Melvo Baptiste</tspan>
+                    </text>
+                    <text id="Melvo-Baptiste-hosts" font-family="SerifGothicITCbyBT-Bold, ITC Serif Gothic" font-size="14.5" font-weight="bold" line-spacing="20" letter-spacing="-0.1432927" fill="#000000">
+                        <tspan x="554" y="312">Melvo Baptiste hosts the weekly Glitterbox Radio Show, a place where</tspan>
+                        <tspan x="554" y="332">we celebrate incredible dance music from across the decades. Each</tspan>
+                        <tspan x="554" y="352">Week, Melvo is joined by a guest who selects three of their all-time</tspan>
+                        <tspan x="554" y="372">favrourite records. You can expect Glitterbox residents, alongside house</tspan>
+                        <tspan x="554" y="392">and disco legends. Never stop dancing.</tspan>
+                    </text>
+                    <text id="MUSIC" font-family="SerifGothicITCbyBT-Heavy, ITC Serif Gothic" font-size="52.5600014" font-weight="600" letter-spacing="-0.409999996" fill="#000000">
+                        <tspan x="440.313478" y="59">MUSI</tspan>
+                        <tspan x="551.677481" y="59">C</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
