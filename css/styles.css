@@ -101,6 +101,16 @@ li {
 	background-size: contain;
 }
 
+#sunergy-overlay {
+	background: url(../img/sunergy_wireframe.png);
+	background-size: contain;
+}
+
+#sunergy-mob-overlay {
+	background: url(../img/sunergy_mob_wireframe.png);
+	background-size: contain;
+}
+
 #croatia-overlay {
 	background: url(../img/croatia_wireframe.png);
 	background-size: contain;
