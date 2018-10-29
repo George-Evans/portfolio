@@ -372,16 +372,16 @@ body input:checked ~ nav > ul > li {
 h1,
 h3,
 .home-nav li a {
-	font-family:'Flareserif821 Lt BT W05 Bold';
+	font-family:'Flareserif821 Lt BT W05 Bold', ff-brokenscript-bc-web, serif;
 }
 
 h1 {
 	font-size: 120px;
-	letter-spacing: -5.26;
+	/*letter-spacing: -5.26;*/
 }
 
 .home-nav li a {
-	letter-spacing: -1.5;
+	/*letter-spacing: -1.5;*/
 }
 
 h2,
@@ -398,7 +398,7 @@ h2 {
 
 h3 {
 	font-size: 90px;
-	letter-spacing: -3.5px;
+	/*letter-spacing: -3.5px;*/
 }
 
 h4 {
