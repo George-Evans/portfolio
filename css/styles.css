@@ -369,19 +369,26 @@ body input:checked ~ nav > ul > li {
 
 /*Typography*/
 
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/
+
 h1,
 h3,
 .home-nav li a {
-	font-family:'Flareserif821 Lt BT W05 Bold', ff-brokenscript-bc-web, serif;
+	font-family:'Flareserif_821 W01 Bold', ff-brokenscript-bc-web, serif;
 }
 
 h1 {
 	font-size: 120px;
-	/*letter-spacing: -5.26;*/
+	letter-spacing: -5.26;
 }
 
 .home-nav li a {
-	/*letter-spacing: -1.5;*/
+	letter-spacing: -1.5;
 }
 
 h2,
@@ -398,7 +405,7 @@ h2 {
 
 h3 {
 	font-size: 90px;
-	/*letter-spacing: -3.5px;*/
+	letter-spacing: -3.5px;
 }
 
 h4 {
